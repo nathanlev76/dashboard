@@ -1,0 +1,187 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+
+nav{
+	width: 100%;
+	height: 60px;
+	background-color: #00a0d1;
+	line-height: 60px;
+	padding:0px 100px;
+	position: fixed;
+	z-index: 1;
+    top: 0;
+}
+nav .logo{
+	font-size: 30px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	cursor: default;
+}
+nav .logo p{
+	float: left;
+	color:#fff;
+	text-transform: uppercase;
+}
+nav ul{
+	float: right;
+}
+nav ul li{
+	display: inline-block;
+	list-style: none;
+}
+nav ul li a{
+	color:#fff;
+	text-decoration: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	padding:0px 10px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+	color:#000000;
+}
+nav ul li .active{
+	color:#000000;
+}
+
+body{
+    background-color: rgb(243, 243, 243);
+}
+
+#background{
+	height: 250px;
+	width: 100%;
+	background-image: url("images/background.webp");
+	background-size: cover;
+}
+
+h1{
+    font-family: "Poppins";
+    font-size: 20px;
+    text-align: left;
+    font-weight: 400;
+    color: black;
+}
+
+h2{
+	text-align: center;
+}
+
+#graph1, #graph2, #graph3{
+    height: 350px;
+    width: 350px;
+    margin: 200px auto 0 auto;
+    background-color: rgb(243, 243, 243);
+}
+
+#graph4{
+    height: 450px;
+    width: 900px;
+    margin: 200px auto 0 auto;
+    background-color: rgb(243, 243, 243);
+	position: relative;
+	top: -120px;	
+}
+
+#graph5{
+    height: 400px;
+    width: 700px;
+	margin: 160px auto 0 auto;
+}
+
+#graph6{
+    height: 400px;
+    width: 700px;
+	margin: 160px auto 0 auto;
+}
+
+#struct_pie{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: -120px;
+}
+
+#struct_line{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	top: -120px;
+}
+
+.statbutton{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: 600px;
+	margin-right: 600px;
+}
+
+
+#button1, #button2{
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	background-color: #00a0d1;
+	position: relative;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	margin: 25px auto 0 auto;
+	font-size: 14px;
+	color: white;
+	transition: 0.1s;
+	cursor: default;
+}
+
+#button1:hover, #button2:hover{
+	background-color: #1fc3f5;
+}
+
+.classicText{
+	color: black;
+	text-align: center;
+	font-size: 20px;
+}
+
+#h2_accueil{
+	color: white;
+}
+
+#access_button{
+	height: 55px;
+	width: 250px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	background-color: #00a0d1;
+	border-radius: 2rem;
+	color: white;
+	margin: 40px auto auto auto;
+	text-decoration: none;
+	transition: 0.1s;
+}
+
+#access_button:hover{
+	background-color: #1fc3f5;
+	cursor: pointer;
+	width: 260px;
+}
+
+footer{
+	width: 180px;
+	height: 30px;
+	position: relative;
+	left: 87%;
+}
+
+
+
+
