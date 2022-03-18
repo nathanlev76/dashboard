@@ -45,6 +45,8 @@
 </body>
 
 <footer>
-    <p>by Nathan Levasseur</p>
+    <div class="hover_img">
+        <a href="#">By Nathan Levasseur<span><img src="images/photo.jpg" alt="image" height="100" /></span></a>
+    </div>
 </footer>
 </html>

@@ -182,6 +182,21 @@ footer{
 	left: 87%;
 }
 
+.hover_img a{
+	position:relative; 
+	color: black;
+	text-decoration: none;
+}
+
+.hover_img a span{
+	position:absolute; 
+	display:none; 
+}
+
+.hover_img a:hover span {
+	display:block; 
+	top: -100px
+}
 
 
 
