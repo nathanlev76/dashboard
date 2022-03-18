@@ -19,6 +19,7 @@
             <li><a href="accueil.php">accueil</a></li>
 		    <li><a href="entreprise.php">structures</a></li>
             <li><a href="alternances.php" class="active">Alternances</a></li>
+            <li><a href="cv.pdf" download>CV<i class="material-icons" style="font-size: 130%; vertical-align: middle;">file_download</i></a></li>
 		</ul>
 	</nav>
 </header>

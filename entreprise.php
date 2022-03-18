@@ -19,6 +19,7 @@
             <li><a href="accueil.php">accueil</a></li>
 		    <li><a href="entreprise.php" class="active">structures</a></li>
             <li><a href="alternances.php">Alternances</a></li>
+            <li><a href="cv.pdf" download>CV<i class="material-icons" style="font-size: 130%; vertical-align: middle;">file_download</i></a></li>
 		</ul>
 	</nav>
 </header>
@@ -39,7 +40,8 @@
     <div id="graph4">
         <canvas id="myChart4"></canvas>
     </div>
-    
+    <a href="alternances.php" id=access_button>Prochains graphiques<i class="material-icons" style="font-size: 150%;">navigate_next</i></div></a>
+    <p></br></br></br></p> 
 
     <?php
     $db = new mysqli('localhost', 'root', 'root', 'bdd_entreprise');

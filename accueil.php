@@ -20,6 +20,7 @@
 			<li><a href="accueil.php" class="active">accueil</a></li>
 			<li><a href="entreprise.php">structures</a></li>
             <li><a href="alternances.php">Alternances</a></li>
+            <li><a href="cv.pdf" download>CV<i class="material-icons" style="font-size: 130%; vertical-align: middle;">file_download</i></a></li>
 		</ul>
 	</nav>
 </header>
@@ -45,8 +46,6 @@
 </body>
 
 <footer>
-    <div class="hover_img">
-        <a href="#">By Nathan Levasseur<span><img src="images/photo.jpg" alt="image" height="100" /></span></a>
-    </div>
+    <p>By Nathan Levasseur</p>
 </footer>
 </html>
